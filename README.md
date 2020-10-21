@@ -1,1 +1,1 @@
-# ddtars
+# ddtars: 本地文件采集到HDFS
