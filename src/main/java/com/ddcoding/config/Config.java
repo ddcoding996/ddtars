@@ -18,8 +18,8 @@ public class Config {
     public static final SimpleDateFormat dateFormat = new SimpleDateFormat(DATE_FORMAT);
     public static final SimpleDateFormat dateTimeFormat = new SimpleDateFormat(DATE_TIME_FORMAT);
 
-    public static final String Mobin_collectorPath = getStringProperty("collectorPath");
-    public static final String Mobin_targetPath = getStringProperty("targetPath");
+    public static final String collectorPath = getStringProperty("collectorPath");
+    public static final String targetPath = getStringProperty("targetPath");
 
     private static Properties loadConfig() {
         String confFile = System.getProperty("File_conf"); //可以在VM启动时配置该参数：-DFile_conf=路径

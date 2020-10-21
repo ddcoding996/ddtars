@@ -11,12 +11,12 @@ import java.util.Map;
 /**
  * Created by ddcoding on 2017/5/17.
  */
-public class MobinFileCollector extends Collector {
+public class HdfsFileCollector extends Collector {
 
-    public MobinFileCollector(){
-        type = "Mobin";  //采集的文件类型
-        collectorPath = Config.Mobin_collectorPath;   //采集根目录
-        targetPath = Config.Mobin_targetPath;
+    public HdfsFileCollector(){
+        type = "XX";  //采集的文件类型
+        collectorPath = Config.collectorPath;   //采集根目录
+        targetPath = Config.targetPath;
     }
 
     //获取新文件

@@ -13,7 +13,7 @@ import java.util.HashSet;
 
 
 /**
- * Created by Mobin on 2017/6/22.
+ * Created by ddcoding on 2017/6/22.
  * 校验程序的程序的启动参数
  */
 public class CollectorOptions {
@@ -71,7 +71,7 @@ public class CollectorOptions {
     public ArrayList<Collector> createCollectors(FileSystem fs) {
         ArrayList<Collector> collectorList = new ArrayList<>();
         if (collectors.contains("mobin")) {
-            MobinFileCollector c = new MobinFileCollector();
+            HdfsFileCollector c = new HdfsFileCollector();
             addCollector(fs, c, collectorList);
         }
         return collectorList;
